@@ -118,7 +118,7 @@ function Calc() {
                                     />
                                 </div>
                                 <div className="flex flex-col">
-                                    <label className="text-center text-[10px]">berat total kendaraan</label>
+                                    <label className="text-center text-[10px]">JBB</label>
                                     <input
                                         className="w-20 h-20 mx-2 my-1 bg-red-400 hover:bg-red-500 active:bg-red-500 focus:outline-none rounded-full font-medium text-[14px] text-center"
                                         value={totalWeight.totGVW}
@@ -147,7 +147,7 @@ function Calc() {
                                     />
                                 </div>
                                 <div className="flex flex-col">
-                                    <label className="text-center text-[10px]">berat kendaraan</label>
+                                    <label className="text-center text-[10px]">BK</label>
                                     <input
                                         className="w-20 h-20 mx-2 my-1 bg-red-400 hover:bg-red-500 active:bg-red-500 focus:outline-none rounded-full font-medium text-[14px] text-center"
                                         value={emptyWeight.totEVW}
