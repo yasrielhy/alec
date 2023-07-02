@@ -134,7 +134,7 @@ const ResultContextProvider = ({ children }) => {
     router.push("/result");
     const seatValue = Number(complementary.seat) * 60;
     const payloadValue =
-      Number(totalWeight.totGVW) - (Number(emptyWeight.totEVW) + seatValue);
+      Number(totalWeight.totGVW) - Number(emptyWeight.totEVW) + seatValue;
     const distanceValue =
       (Number(complementary.wheelbase) *
         (Number(totalWeight.rearGVW) - Number(emptyWeight.rearEVW))) /
