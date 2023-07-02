@@ -168,7 +168,6 @@ const ResultContextProvider = ({ children }) => {
       if (heaviestAxisLoadValue() <= 10000 && complementary.length <= 13000) {
         return 1;
       }
-      return "khusus";
     };
 
     setResults({
