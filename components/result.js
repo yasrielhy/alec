@@ -143,11 +143,11 @@ const ResultContextProvider = ({ children }) => {
     const heaviestAxisLoadValue = () => {
       const r1 =         Number(emptyWeight.frontEVW) +
       (Number(payloadValue) *
-        (Number(complementary.wheelbase) - Number(distanceValue))) /
+        (Number(complementary.wheelbase) - Number(distanceValue).toFixed(1))) /
         Number(complementary.wheelbase) +
       Number(seatValue);
       const r2 =           Number(emptyWeight.rearEVW) +
-      (Number(payloadValue) * Number(distanceValue)) /
+      (Number(payloadValue) * Number(distanceValue).toFixed(1)) /
         Number(complementary.wheelbase);
       if (r1 <= r2) {
         return (
