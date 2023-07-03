@@ -193,7 +193,7 @@ const ResultContextProvider = ({ children }) => {
     sessionStorage.setItem(
       "results",
       JSON.stringify({
-        heaviestAxisLoad: heaviestAxisLoadValue(),
+        heaviestAxisLoad: heaviestAxisLoadValue() + heaviestAxisLoadCapt(),
         roadClass: roadClassValue(),
         payload: payloadValue.toFixed(1),
       })

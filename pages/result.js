@@ -38,8 +38,8 @@ function Result() {
       </div>
 
       <div className="flex flex-wrap p-3">
-        <div className="mx-auto w-full md:w-1/2 lg:w-1/3 p-3">
-          <div className="bg-white rounded-lg overflow-hidden">
+        <div className="mx-auto w-full md:w-1/2 lg:w-1/3 p-3 text-zinc-900 dark:text-yellow-50">
+          <div className="rounded-lg overflow-hidden">
             <h2 className="font-bold text-xl mb-5 text-center">
               Muatan Sumbu Terberat
             </h2>
@@ -57,7 +57,7 @@ function Result() {
           </div>
         </div>
         <div className="mx-auto w-full md:w-1/2 lg:w-1/3 p-3">
-          <div className="bg-white rounded-lg overflow-hidden">
+          <div className="rounded-lg overflow-hidden">
             <h2 className="font-bold text-xl mb-5 text-center">Kelas Jalan</h2>
             <Image
               src="/icon/143590661582779206.svg"
@@ -73,7 +73,7 @@ function Result() {
           </div>
         </div>
         <div className="mx-auto w-full md:w-1/2 lg:w-1/3 p-3">
-          <div className="bg-white rounded-lg overflow-hidden">
+          <div className="rounded-lg overflow-hidden">
             <h2 className="font-bold text-xl mb-5 text-center">Daya Angkut</h2>
             <Image
               src="/icon/191950655616354821474533.svg"
@@ -91,7 +91,7 @@ function Result() {
       </div>
 
       <div className="flex justify-center">
-      <ul class="max-w-xl space-y-1 font-light text-black list-inside p-4">
+      <ul class="max-w-xl space-y-1 font-light text-black dark:text-yellow-50 list-inside p-4">
                                 <li class="flex items-center">
                                     <svg class="w-5 h-5 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                                     MST tidak boleh melebihi dari kemampuan ban, maksimal sama. Periksa kode ban yang digunakan pada kendaraan anda

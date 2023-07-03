@@ -29,7 +29,7 @@ export default function navbar() {
 
               <div className="flex">
                 <div className="flex items-center md:hidden">
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-zinc-900 duration-300">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-zinc-900 dark:text-yellow-50 duration-300">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XIcon className="block h-7 w-7" aria-hidden="true" />
@@ -40,7 +40,7 @@ export default function navbar() {
                 </div>
                 <div className="hidden md:flex h-full pl-8">
                   {navigation.map(({ name, href }) => (
-                    <Link href={href} key={name} className="inline-flex items-center px-8 py-2 font-light text-sm rounded-md text-zinc-900 duration-300">
+                    <Link href={href} key={name} className="inline-flex items-center px-8 py-2 font-light text-sm rounded-md text-zinc-900 dark:text-yellow-50 duration-300">
                       <span>{name}</span>
                     </Link>
                   ))}

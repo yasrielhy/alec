@@ -29,7 +29,7 @@ export default function Footer() {
                 </a>
               </div>
 			<div className="flex flex-row justify-center items-center text-center mb-5 p-3">
-				<p className=" text-black font-light">
+				<p className=" text-black dark:text-yellow-50 font-light">
 					© 2023 All rights reserved | Alec by yasrielhy
 				</p>
 			</div>
