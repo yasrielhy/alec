@@ -140,38 +140,52 @@ const ResultContextProvider = ({ children }) => {
         (Number(totalWeight.rearGVW) - Number(emptyWeight.rearEVW))) /
       (Number(totalWeight.totGVW) - Number(emptyWeight.totEVW));
 
-    const heaviestAxisLoadValue = () => {
-      const r1 =         Number(emptyWeight.frontEVW) +
+      const Resultant1 =         Number(emptyWeight.frontEVW) +
       (Number(payloadValue) *
         (Number(complementary.wheelbase) - Number(distanceValue).toFixed(1))) /
         Number(complementary.wheelbase) +
       Number(seatValue);
-      const r2 =           Number(emptyWeight.rearEVW) +
+      const Resultant2 =           Number(emptyWeight.rearEVW) +
       (Number(payloadValue) * Number(distanceValue).toFixed(1)) /
         Number(complementary.wheelbase);
-      if (r1 <= r2) {
+      const heaviestAxisLoadValue = () => {
+      if (Resultant2 > Resultant1) {
         return (
-          r2.toFixed(1) + ' S2'
+          Resultant2.toFixed(1)
         );
       }
+      if (Resultant2 < Resultant1) {
       return (
-        r1.toFixed(1) + ' S1'
+        Resultant1.toFixed(1)
       );
+      }
+    };
+    const heaviestAxisLoadCapt = () => {
+      if (Resultant2 > Resultant1) {
+        return (
+          '(S2)'
+        );
+      }
+      if (Resultant2 < Resultant1) {
+      return (
+        '(S1)'
+      );
+      }
     };
     const roadClassValue = () => {
-      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 9000) {
+      if (heaviestAxisLoadValue() > 0 && complementary.length <= 9000) {
         return 3;
       }
-      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 12000) {
+      if (heaviestAxisLoadValue() >= 8000 && complementary.length <= 12000) {
         return 2;
       }
-      if (heaviestAxisLoadValue() <= 10000 && complementary.length <= 13000) {
+      if (heaviestAxisLoadValue() >= 10000 && complementary.length <= 13000) {
         return 1;
       }
     };
 
     setResults({
-      heaviestAxisLoad: heaviestAxisLoadValue(),
+      heaviestAxisLoad: heaviestAxisLoadValue() + heaviestAxisLoadCapt(),
       roadClass: roadClassValue(),
       payload: payloadValue.toFixed(1),
     });
