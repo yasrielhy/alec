@@ -83,7 +83,7 @@ function Result() {
             />
             <div className="p-4">
               <h2 className="font-bold text-2xl mb-5 text-center">
-                {results.payload}
+                {results.payload} Kg
               </h2>
             </div>
           </div>
