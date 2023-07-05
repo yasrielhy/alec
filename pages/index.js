@@ -9,7 +9,8 @@ export default function Home() {
         <div className="min-h-screen grid grid-cols-1 md:grid-cols-2 place-items-center gap-1">
           <div className="flex flex-col justify-center items-center p-10">
           <p className="pb-10 text-4xl font-bold text-center text-blue-800 lg:text-3xl">Axle Load Calculation</p>
-            <p className="p-3 text-2xl text-center font-light text-black dark:text-yellow-50 lg:w-5/6 lg:pb-0 lg:text-lg lg:p-0 lg:pl-0 lg:pr-0">Kelebihan muatan pada umumnya terdapat pada mobil barang. Berikan beban kendaraanmu sesuai kemampuan, gunakan aplikasi untuk mengetahuinya. aplikasi dibuat untuk mobil barang 1.1 dan 1.2</p>
+          <p className="pb-10 text-sm font-bold text-center text-red-800 lg:text-sm">dibuat untuk mobil barang 1.1 dan 1.2</p>
+          <p className="p-3 text-2xl text-center font-light text-black dark:text-yellow-50 lg:w-5/6 lg:pb-0 lg:text-lg lg:p-0 lg:pl-0 lg:pr-0">Kelebihan muatan pada umumnya terdapat pada mobil barang. Berikan beban kendaraanmu sesuai kemampuan, gunakan aplikasi untuk mengetahuinya.</p>
           </div>
           <div className="flex flex-col justify-center items-center p-10 lg:w-5/6">
             <Image src="/img/Vintage truck-amico (1).svg" className="mb-5" width={600} height={400} />
