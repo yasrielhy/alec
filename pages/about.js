@@ -16,7 +16,7 @@ export default function About() {
                     <circle cx="12" cy="7" r="4"></circle>
                   </svg>
                 </div>
-                <div class="flex flex-col items-center text-center justify-center items-center">
+                <div class="flex flex-col items-center text-center justify-center">
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Yasril Hidayat</h2>
                   <div class="w-12 h-1 bg-blue-500 rounded mt-2 mb-4"></div>
                   <p class="text-base">Doa adalah senjata orang beriman</p>
