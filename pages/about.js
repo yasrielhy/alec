@@ -16,14 +16,14 @@ export default function About() {
                     <circle cx="12" cy="7" r="4"></circle>
                   </svg>
                 </div>
-                <div class="flex flex-col items-center text-center justify-center">
+                <div class="flex flex-col items-center text-center justify-center items-center">
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Yasril Hidayat</h2>
                   <div class="w-12 h-1 bg-blue-500 rounded mt-2 mb-4"></div>
                   <p class="text-base">Doa adalah senjata orang beriman</p>
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <p className="text-2xl font-bold text-blue-800 lg:text-xl mb-5">Axle Load Calculation</p>
+              <p className="text-2xl font-bold text-blue-800 lg:text-xl mb-5 text-center">Axle Load Calculation</p>
               <Image src="/img/simulation_truck.svg" className="mb-5" width={300} height={200} />
                 <p class="leading-relaxed text-lg mb-4">Daya angkut kendaraan bermotor merupakan berat muatan sesungguhnya yang mampu diangkut oleh kendaraan yang disesuaikan berdasarkan berat orang ditambah berat muatan. Dalam penelitian ini, saya membawakan metode baru yang diambil dari referensi luar negeri dalam menentukan hal tersebut dan kemudian saya aplikasikan melalui website ini.</p>
               </div>
