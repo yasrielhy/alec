@@ -23,7 +23,8 @@ export default function About() {
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p class="leading-relaxed text-lg mb-4">Web ini dibuat untuk memenuhi tugas akhir Diploma III Teknologi Otomotif PKTJ Tegal. Perhitungan daya angkut merupakan judul yang saya angkat dalam penelitian saya. Jarak titik muatan ke sumbu depan dapat ditentukan dengan cara mengukur secara langsung pada kendaraan. Dalam penelitian ini, saya membawakan metode baru yang diambil dari referensi luar negeri dalam menentukan hal tersebut dan kemudian saya aplikasikan melalui website ini.</p>
+              <p className="text-2xl font-bold text-blue-800 lg:text-xl">Axle Load Calculation</p>
+                <p class="leading-relaxed text-lg mb-4">Daya angkut kendaraan bermotor merupakan berat muatan sesungguhnya yang mampu diangkut oleh kendaraan yang disesuaikan berdasarkan berat orang ditambah berat muatan. Dalam penelitian ini, saya membawakan metode baru yang diambil dari referensi luar negeri dalam menentukan hal tersebut dan kemudian saya aplikasikan melalui website ini.</p>
               </div>
             </div>
           </div>
