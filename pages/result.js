@@ -25,18 +25,6 @@ function Result() {
   }, []);
   return (
     <>
-      <div className="flex flex-col justify-center items-center p-5">
-        <div className="pt-10 mb-20 text-3xl font-semibold text-center text-blue-800 lg:font-bold">
-          Terima Kasih telah menggunakan aplikasi kami
-        </div>
-        <Image
-          src="/img/Leader-pana.svg"
-          className="mb-5"
-          width={400}
-          height={300}
-        />
-      </div>
-
       <div className="flex flex-wrap p-3">
         <div className="mx-auto w-full md:w-1/2 lg:w-1/3 p-3 text-zinc-900 dark:text-yellow-50">
           <div className="rounded-lg overflow-hidden">
@@ -102,7 +90,17 @@ function Result() {
                                 </li>
                             </ul>
       </div>
-
+      <div className="flex flex-col justify-center items-center p-5">
+        <div className="pt-10 mb-20 text-3xl font-semibold text-center text-blue-800 lg:font-bold">
+          Terima Kasih telah menggunakan aplikasi kami
+        </div>
+        <Image
+          src="/img/Leader-pana.svg"
+          className="mb-5"
+          width={400}
+          height={300}
+        />
+      </div>
       <div className="flex justify-center mt-5">
       <a type="button" className="inline-flex items-center justify-center w-[10rem] mb-10 px-8 py-4 text-base font-bold leading-6 text-white bg-indigo-600 border border-transparent rounded-full hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">
         {isClient && (
