@@ -203,7 +203,7 @@ function Calc() {
                                 />
                                 </div>
                                 <div className="flex flex-col">
-                                    <label className="text-center text-[10px]">dudukan</label>
+                                    <label className="text-center text-[10px]">tempat duduk</label>
                                     <input
                                         className="w-20 h-20 mx-2 my-1 bg-orange-300 hover:bg-orange-400 active:bg-orange-400 focus:outline-none rounded-full font-medium text-[14px] text-center"
                                         value={complementary.seat}
