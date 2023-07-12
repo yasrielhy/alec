@@ -173,13 +173,13 @@ const ResultContextProvider = ({ children }) => {
       }
     };
     const roadClassValue = () => {
-      if (heaviestAxisLoadValue() > 0 && complementary.length <= 9000) {
+      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 9000) {
         return 3;
       }
-      if (heaviestAxisLoadValue() >= 8000 && complementary.length <= 12000) {
+      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 12000) {
         return 2;
       }
-      if (heaviestAxisLoadValue() >= 10000 && complementary.length <= 13000) {
+      if (heaviestAxisLoadValue() <= 10000 && complementary.length <= 13000) {
         return 1;
       }
     };
