@@ -4,7 +4,7 @@ import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon, ChevronRightIcon } from '@heroicons/react/solid';
 import { FaInstagram, FaGithub } from 'react-icons/fa';
 const navigation = [
-  { name: 'Rumah', href: '/' },
+  { name: 'Halama utama', href: '/' },
   { name: 'Tentang', href: '/about' },
   { name: 'Panduan', href: 'https://drive.google.com/file/d/15-vKJpKUXa5Mdtqd7oX1d-8zoTJB9JvA/view?usp=sharing' },
 ];
