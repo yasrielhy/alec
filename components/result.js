@@ -179,7 +179,7 @@ const ResultContextProvider = ({ children }) => {
       if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 12000) {
         return 2;
       }
-      if (heaviestAxisLoadValue() <= 10000 && complementary.length <= 13000) {
+      if (heaviestAxisLoadValue() <= 10000 && complementary.length <= 18000) {
         return 1;
       }
     };
