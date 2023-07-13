@@ -106,8 +106,8 @@ function Calc() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="flex flex-col justify-center items-center p-10">
-                            <div className="flex flex-row justify-center">
+                        <div className="flex flex-col justify-center items-center font-bold p-2 bg-zinc-100 rounded-xl">
+                            <div className="flex flex-row justify-center mb-1">
                                 <div className="flex flex-col">
                                     <label className="text-center text-[10px]">depan</label>
                                     <input
@@ -136,7 +136,7 @@ function Calc() {
                                     />
                                 </div>
                             </div>
-                            <div className="flex flex-row justify-center">
+                            <div className="flex flex-row justify-center mb-1">
                                 <div className="flex flex-col">
                                     <label className="text-center text-[10px]">depan</label>
                                     <input
@@ -164,7 +164,7 @@ function Calc() {
                                     />
                                 </div>
                             </div>
-                            <div className="flex flex-row justify-center">
+                            <div className="flex flex-row justify-center mb-1">
                                 <div className="flex flex-col">
                                     <label className="text-center text-[10px]">panjang</label>
                                     <input
@@ -193,7 +193,7 @@ function Calc() {
                                     />
                                 </div>
                             </div>
-                            <div className="flex flex-row justify-center">
+                            <div className="flex flex-row justify-center mb-1">
                                 <div className="flex flex-col">
                                     <label className="text-center text-[10px]">jarak sumbu</label>
                                     <input
@@ -227,6 +227,29 @@ function Calc() {
             </div>
 
             <div class="w-1/5 h-1 bg-gray-400 rounded mt-2 mb-2 mx-auto"></div>
+            <div>
+            <div className="pt-20 mb-20 text-3xl font-bold text-center text-blue-800">Bagaimana menggunakannya</div>
+            <div className="flex justify-center">
+      <ul class="max-w-xl space-y-1 font-light text-black dark:text-yellow-50 list-inside p-4">
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Isi berat sumbu depan + sumbu belakang pada JBB
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Isi berat sumbu depan + sumbu belakang pada BK
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Isi dimensi seperti panjang, lebar, tinggi dan jarak sumbu pada kendaraan
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Isi jumlah tempat duduk pada kendaraan
+                                </li>
+                            </ul>
+      </div>
+            </div>
             <div id="faq" className="pt-20 mb-20 text-3xl font-bold text-center text-blue-800">Bagaimana menemukannya</div>
             <div className="flex flex-wrap p-3">
                 <div className="mx-auto w-full md:w-1/2 lg:w-1/3 p-3">
