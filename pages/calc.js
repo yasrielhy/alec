@@ -61,6 +61,9 @@ function Calc() {
         if (Number(height > 4200)){
             actualError = 'Tinggi tidak sesuai peraturan';
         }
+        if (Number(totGVW) < Number(totEVW)){
+            actualError = 'periksa kembali terkait berat';
+        }
         if (actualError) {
             setError(actualError);
             setShow(true);
