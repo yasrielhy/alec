@@ -173,6 +173,9 @@ const ResultContextProvider = ({ children }) => {
       }
     };
     const roadClassValue = () => {
+      if (heaviestAxisLoadValue() > 10000) {
+        return "khusus";
+      }
       if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 9000) {
         return 3;
       }
