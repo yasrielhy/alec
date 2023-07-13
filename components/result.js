@@ -176,13 +176,13 @@ const ResultContextProvider = ({ children }) => {
       if (heaviestAxisLoadValue() > 10000) {
         return "khusus";
       }
-      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 9000) {
+      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 9000 && complementary.width <= 2100) {
         return 3;
       }
-      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 12000) {
+      if (heaviestAxisLoadValue() <= 8000 && complementary.length <= 12000 && complementary.width <= 2500) {
         return 2;
       }
-      if (heaviestAxisLoadValue() <= 10000 && complementary.length <= 18000) {
+      if (heaviestAxisLoadValue() <= 10000 && complementary.length <= 18000 && complementary.width <= 2500) {
         return 1;
       }
     };
