@@ -44,7 +44,7 @@ function Calc() {
         let actualError = '';
         // Validate if there are values
         if (!frontGVW || !rearGVW || !totGVW || !frontEVW || !rearEVW || !totEVW || !length || !width || !height || !wheelbase || !seat) {
-            actualError = 'Semua nilai diperlukan';
+            actualError = 'Semua nilai harus diisi';
         }
         // Validade if the values are numbers
         if (isNaN(frontGVW) || isNaN(rearGVW) || isNaN(totGVW) || isNaN(frontEVW) || isNaN(rearEVW) || isNaN(totEVW) || isNaN(length) || isNaN(height) || isNaN(width) || isNaN(wheelbase) || isNaN(seat)) {
@@ -54,6 +54,12 @@ function Calc() {
         if (Number(frontGVW) < 0 || Number(rearGVW) < 0 || Number(totGVW) < 0 || Number(frontEVW) < 0 || Number(rearEVW) < 0 || Number(totEVW) < 0 || Number(length) < 0 || Number(width) < 0 || Number(height) < 0 || Number(wheelbase) < 0 || Number(seat) < 0
         ) {
             actualError = 'Semua nilai harus berupa angka positif';
+        }
+        if (Number(width > 2500)){
+            actualError = 'Lebar tidak sesuai peraturan';
+        }
+        if (Number(height > 4200)){
+            actualError = 'Tinggi tidak sesuai peraturan';
         }
         if (actualError) {
             setError(actualError);
