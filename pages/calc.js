@@ -108,7 +108,7 @@ function Calc() {
                                 <div className="flex flex-col">
                                     <label className="text-center text-[10px]">depan</label>
                                     <input
-                                        className="w-20 h-20 mx-2 my-1 bg-pink-50 hover:bg-pink-100 active:bg-pink-100 focus:outline-none rounded-full font-medium text-[14px] text-center"
+                                        className="w-20 h-20 mx-2 my-1 bg-cyan-50 hover:bg-cyan-100 active:bg-cyan-100 focus:outline-none rounded-full font-medium text-[14px] text-center"
                                         value={totalWeight.frontGVW}
                                         onChange={handleTotalFront}
                                         name='frontGVW'
@@ -117,7 +117,7 @@ function Calc() {
                                 <div className="flex flex-col">
                                     <label className="text-center text-[10px]">belakang</label>
                                     <input
-                                        className="w-20 h-20 mx-2 my-1 bg-pink-50 hover:bg-pink-100 active:bg-pink-100 focus:outline-none rounded-full font-medium text-[14px] text-center"
+                                        className="w-20 h-20 mx-2 my-1 bg-cyan-50 hover:bg-cyan-100 active:bg-cyan-100 focus:outline-none rounded-full font-medium text-[14px] text-center"
                                         value={totalWeight.rearGVW}
                                         onChange={handleTotalRear}
                                         name='rearGVW'
@@ -126,7 +126,7 @@ function Calc() {
                                 <div className="flex flex-col">
                                     <label className="text-center text-[10px]">JBB</label>
                                     <input
-                                        className="w-20 h-20 mx-2 my-1 bg-red-400 hover:bg-red-500 active:bg-red-500 focus:outline-none rounded-full font-medium text-[14px] text-center"
+                                        className="w-20 h-20 mx-2 my-1 bg-sky-400 hover:bg-sky-500 active:bg-sky-500 focus:outline-none rounded-full font-medium text-[14px] text-center"
                                         value={totalWeight.totGVW}
                                         //onChange={handleTotalGVW}
                                         name='totGVW'
