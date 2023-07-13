@@ -43,6 +43,7 @@ const Print = ({ data }) => (
           <Text>Panjang : {data?.length}</Text>
           <Text>Lebar : {data?.width}</Text>
           <Text>Tinggi : {data?.height}</Text>
+          <Text>Wheelbase : {data?.wheelbase}</Text>
         </View>
         <View
           style={{

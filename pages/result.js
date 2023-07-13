@@ -13,6 +13,7 @@ function Result() {
     length: complementary.length + ' mm',
     width: complementary.width + ' mm',
     height: complementary.height + ' mm',
+    wheelbase: complementary.wheelbase + ' mm',
     weight: totalWeight.totGVW + ' kg',
     vehicle: emptyWeight.totEVW + ' kg',
     heaviestAxisLoad: results.heaviestAxisLoad + ' kg',
